@@ -1107,3 +1107,609 @@ Served asset /jquery_ujs.js - 304 Not Modified (0ms)
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-01 15:07:38 +0530
 Served asset /application.js - 304 Not Modified (3ms)
+Connecting to database specified by database.yml
+  [1m[36m (35.4ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateMovies (20111119180638)
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Connecting to database specified by database.yml
+  [1m[36m (1.2ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "movies" 
+  [1m[36mSQL (62.0ms)[0m  [1mDELETE FROM "movies"[0m
+WARNING: Can't mass-assign protected attributes: title, rating, release_date
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (46.3ms)[0m  [1mINSERT INTO "movies" ("created_at", "description", "rating", "release_date", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", Mon, 01 Dec 2014 09:57:04 UTC +00:00], ["description", nil], ["rating", nil], ["release_date", nil], ["title", nil], ["updated_at", Mon, 01 Dec 2014 09:57:04 UTC +00:00]]
+  [1m[35m (15.1ms)[0m  commit transaction
+WARNING: Can't mass-assign protected attributes: title, rating, release_date
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "movies" ("created_at", "description", "rating", "release_date", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", Mon, 01 Dec 2014 09:57:04 UTC +00:00], ["description", nil], ["rating", nil], ["release_date", nil], ["title", nil], ["updated_at", Mon, 01 Dec 2014 09:57:04 UTC +00:00]]
+  [1m[36m (12.1ms)[0m  [1mcommit transaction[0m
+WARNING: Can't mass-assign protected attributes: title, rating, release_date
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "movies" ("created_at", "description", "rating", "release_date", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", Mon, 01 Dec 2014 09:57:04 UTC +00:00], ["description", nil], ["rating", nil], ["release_date", nil], ["title", nil], ["updated_at", Mon, 01 Dec 2014 09:57:04 UTC +00:00]]
+  [1m[35m (15.9ms)[0m  commit transaction
+WARNING: Can't mass-assign protected attributes: title, rating, release_date
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "movies" ("created_at", "description", "rating", "release_date", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", Mon, 01 Dec 2014 09:57:04 UTC +00:00], ["description", nil], ["rating", nil], ["release_date", nil], ["title", nil], ["updated_at", Mon, 01 Dec 2014 09:57:04 UTC +00:00]]
+  [1m[36m (13.9ms)[0m  [1mcommit transaction[0m
+WARNING: Can't mass-assign protected attributes: title, rating, release_date
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "movies" ("created_at", "description", "rating", "release_date", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", Mon, 01 Dec 2014 09:57:04 UTC +00:00], ["description", nil], ["rating", nil], ["release_date", nil], ["title", nil], ["updated_at", Mon, 01 Dec 2014 09:57:04 UTC +00:00]]
+  [1m[35m (16.4ms)[0m  commit transaction
+WARNING: Can't mass-assign protected attributes: title, rating, release_date
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "movies" ("created_at", "description", "rating", "release_date", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", Mon, 01 Dec 2014 09:57:04 UTC +00:00], ["description", nil], ["rating", nil], ["release_date", nil], ["title", nil], ["updated_at", Mon, 01 Dec 2014 09:57:04 UTC +00:00]]
+  [1m[36m (18.2ms)[0m  [1mcommit transaction[0m
+WARNING: Can't mass-assign protected attributes: title, rating, release_date
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (1.6ms)[0m  [1mINSERT INTO "movies" ("created_at", "description", "rating", "release_date", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", Mon, 01 Dec 2014 09:57:04 UTC +00:00], ["description", nil], ["rating", nil], ["release_date", nil], ["title", nil], ["updated_at", Mon, 01 Dec 2014 09:57:04 UTC +00:00]]
+  [1m[35m (18.9ms)[0m  commit transaction
+WARNING: Can't mass-assign protected attributes: title, rating, release_date
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "movies" ("created_at", "description", "rating", "release_date", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", Mon, 01 Dec 2014 09:57:04 UTC +00:00], ["description", nil], ["rating", nil], ["release_date", nil], ["title", nil], ["updated_at", Mon, 01 Dec 2014 09:57:04 UTC +00:00]]
+  [1m[36m (14.5ms)[0m  [1mcommit transaction[0m
+WARNING: Can't mass-assign protected attributes: title, rating, release_date
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "movies" ("created_at", "description", "rating", "release_date", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", Mon, 01 Dec 2014 09:57:04 UTC +00:00], ["description", nil], ["rating", nil], ["release_date", nil], ["title", nil], ["updated_at", Mon, 01 Dec 2014 09:57:04 UTC +00:00]]
+  [1m[35m (14.0ms)[0m  commit transaction
+WARNING: Can't mass-assign protected attributes: title, rating, release_date
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "movies" ("created_at", "description", "rating", "release_date", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", Mon, 01 Dec 2014 09:57:04 UTC +00:00], ["description", nil], ["rating", nil], ["release_date", nil], ["title", nil], ["updated_at", Mon, 01 Dec 2014 09:57:04 UTC +00:00]]
+  [1m[36m (16.1ms)[0m  [1mcommit transaction[0m
+
+
+Started GET "/movies?ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1&ratings%5BR%5D=1&sort=release_date" for 127.0.0.1 at 2014-12-01 15:27:21 +0530
+Processing by MoviesController#index as HTML
+  Parameters: {"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "sort"=>"release_date"}
+  [1m[36mMovie Load (0.0ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'NC-17', 'PG', 'PG-13', 'R') ORDER BY release_date[0m
+  Rendered movies/index.html.haml within layouts/application (3.1ms)
+Completed 200 OK in 66.9ms (Views: 64.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-01 15:27:22 +0530
+Served asset /application.css - 304 Not Modified (29ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-01 15:27:22 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-01 15:27:22 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-01 15:27:22 +0530
+Served asset /application.js - 304 Not Modified (6ms)
+
+
+Started GET "/movies?ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1&ratings%5BR%5D=1&sort=release_date" for 127.0.0.1 at 2014-12-01 15:28:40 +0530
+Processing by MoviesController#index as HTML
+  Parameters: {"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "sort"=>"release_date"}
+  [1m[35mMovie Load (6.8ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'NC-17', 'PG', 'PG-13', 'R') ORDER BY release_date
+  Rendered movies/index.html.haml within layouts/application (5.3ms)
+Completed 200 OK in 25.7ms (Views: 17.5ms | ActiveRecord: 6.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-01 15:28:40 +0530
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-01 15:28:41 +0530
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-01 15:28:41 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-01 15:28:41 +0530
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/movies?ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1&ratings%5BR%5D=1&sort=release_date" for 127.0.0.1 at 2014-12-01 15:28:41 +0530
+Processing by MoviesController#index as HTML
+  Parameters: {"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "sort"=>"release_date"}
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'NC-17', 'PG', 'PG-13', 'R') ORDER BY release_date[0m
+  Rendered movies/index.html.haml within layouts/application (8.3ms)
+Completed 200 OK in 24.9ms (Views: 23.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-01 15:28:41 +0530
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-01 15:28:41 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-01 15:28:41 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-01 15:28:41 +0530
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/movies?ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1&ratings%5BR%5D=1&sort=release_date" for 127.0.0.1 at 2014-12-01 15:28:42 +0530
+Processing by MoviesController#index as HTML
+  Parameters: {"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "sort"=>"release_date"}
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'NC-17', 'PG', 'PG-13', 'R') ORDER BY release_date
+  Rendered movies/index.html.haml within layouts/application (2.4ms)
+Completed 200 OK in 18.7ms (Views: 13.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-01 15:28:42 +0530
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-01 15:28:42 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-01 15:28:42 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-01 15:28:42 +0530
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/movies?ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1&ratings%5BR%5D=1&sort=release_date" for 127.0.0.1 at 2014-12-01 15:28:44 +0530
+Processing by MoviesController#index as HTML
+  Parameters: {"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "sort"=>"release_date"}
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'NC-17', 'PG', 'PG-13', 'R') ORDER BY release_date[0m
+  Rendered movies/index.html.haml within layouts/application (7.1ms)
+Completed 200 OK in 12.2ms (Views: 11.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-01 15:28:44 +0530
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-01 15:28:44 +0530
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-01 15:28:44 +0530
+Served asset /application.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-01 15:28:44 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/movies?ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1&ratings%5BR%5D=1&sort=release_date" for 127.0.0.1 at 2014-12-01 15:29:18 +0530
+Processing by MoviesController#index as HTML
+  Parameters: {"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "sort"=>"release_date"}
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'NC-17', 'PG', 'PG-13', 'R') ORDER BY release_date
+  Rendered movies/index.html.haml within layouts/application (2.4ms)
+Completed 200 OK in 38.1ms (Views: 36.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-01 15:29:18 +0530
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-01 15:29:18 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-01 15:29:18 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-01 15:29:18 +0530
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/movies?ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1&ratings%5BR%5D=1&sort=release_date" for 127.0.0.1 at 2014-12-01 15:29:18 +0530
+Processing by MoviesController#index as HTML
+  Parameters: {"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "sort"=>"release_date"}
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'NC-17', 'PG', 'PG-13', 'R') ORDER BY release_date[0m
+  Rendered movies/index.html.haml within layouts/application (8.0ms)
+Completed 200 OK in 18.1ms (Views: 16.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-01 15:29:19 +0530
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-01 15:29:19 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-01 15:29:19 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-01 15:29:19 +0530
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/movies?ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1&ratings%5BR%5D=1&sort=release_date" for 127.0.0.1 at 2014-12-01 15:29:37 +0530
+Processing by MoviesController#index as HTML
+  Parameters: {"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "sort"=>"release_date"}
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'NC-17', 'PG', 'PG-13', 'R') ORDER BY release_date
+  Rendered movies/index.html.haml within layouts/application (3.3ms)
+Completed 200 OK in 11.6ms (Views: 10.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-01 15:29:37 +0530
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-01 15:29:37 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-01 15:29:37 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-01 15:29:37 +0530
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/movies?ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1&ratings%5BR%5D=1&sort=release_date" for 127.0.0.1 at 2014-12-01 15:29:38 +0530
+Processing by MoviesController#index as HTML
+  Parameters: {"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "sort"=>"release_date"}
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'NC-17', 'PG', 'PG-13', 'R') ORDER BY release_date[0m
+  Rendered movies/index.html.haml within layouts/application (8.6ms)
+Completed 200 OK in 19.6ms (Views: 18.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-01 15:29:38 +0530
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-01 15:29:38 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-01 15:29:38 +0530
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-01 15:29:38 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+  [1m[36m (1.2ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "movies" 
+  [1m[36mSQL (40.2ms)[0m  [1mDELETE FROM "movies"[0m
+WARNING: Can't mass-assign protected attributes: title, rating, release_date
+Connecting to database specified by database.yml
+  [1m[36m (1.2ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "movies" 
+WARNING: Can't mass-assign protected attributes: title, rating, release_date
+Connecting to database specified by database.yml
+  [1m[36m (1.3ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "movies" 
+WARNING: Can't mass-assign protected attributes: title, rating, release_date
+Connecting to database specified by database.yml
+  [1m[36m (1.2ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "movies" 
+WARNING: Can't mass-assign protected attributes: title, rating, release_date
+Connecting to database specified by database.yml
+  [1m[36m (1.0ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "movies" 
+WARNING: Can't mass-assign protected attributes: title, rating, release_date
+WARNING: Can't mass-assign protected attributes: title, rating, release_date
+Connecting to database specified by database.yml
+  [1m[36m (1.2ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Connecting to database specified by database.yml
+  [1m[36m (1.9ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "movies" 
+
+
+Started GET "/movies?ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1&ratings%5BR%5D=1&sort=release_date" for 127.0.0.1 at 2014-12-01 15:41:56 +0530
+Processing by MoviesController#index as HTML
+  Parameters: {"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "sort"=>"release_date"}
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'NC-17', 'PG', 'PG-13', 'R') ORDER BY release_date
+  Rendered movies/index.html.haml within layouts/application (6.3ms)
+Completed 200 OK in 19.4ms (Views: 18.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-01 15:41:56 +0530
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-01 15:41:56 +0530
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-01 15:41:56 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-01 15:41:56 +0530
+Served asset /application.js - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+  [1m[36m (1.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "movies" 
+WARNING: Can't mass-assign protected attributes: title, rating, release_date
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (5.0ms)[0m  INSERT INTO "movies" ("created_at", "description", "rating", "release_date", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", Mon, 01 Dec 2014 10:12:17 UTC +00:00], ["description", nil], ["rating", nil], ["release_date", nil], ["title", nil], ["updated_at", Mon, 01 Dec 2014 10:12:17 UTC +00:00]]
+  [1m[36m (20.4ms)[0m  [1mcommit transaction[0m
+WARNING: Can't mass-assign protected attributes: title, rating, release_date
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "movies" ("created_at", "description", "rating", "release_date", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", Mon, 01 Dec 2014 10:12:17 UTC +00:00], ["description", nil], ["rating", nil], ["release_date", nil], ["title", nil], ["updated_at", Mon, 01 Dec 2014 10:12:17 UTC +00:00]]
+  [1m[35m (20.9ms)[0m  commit transaction
+WARNING: Can't mass-assign protected attributes: title, rating, release_date
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "movies" ("created_at", "description", "rating", "release_date", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", Mon, 01 Dec 2014 10:12:17 UTC +00:00], ["description", nil], ["rating", nil], ["release_date", nil], ["title", nil], ["updated_at", Mon, 01 Dec 2014 10:12:17 UTC +00:00]]
+  [1m[36m (17.0ms)[0m  [1mcommit transaction[0m
+WARNING: Can't mass-assign protected attributes: title, rating, release_date
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "movies" ("created_at", "description", "rating", "release_date", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", Mon, 01 Dec 2014 10:12:17 UTC +00:00], ["description", nil], ["rating", nil], ["release_date", nil], ["title", nil], ["updated_at", Mon, 01 Dec 2014 10:12:17 UTC +00:00]]
+  [1m[35m (12.1ms)[0m  commit transaction
+WARNING: Can't mass-assign protected attributes: title, rating, release_date
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "movies" ("created_at", "description", "rating", "release_date", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", Mon, 01 Dec 2014 10:12:17 UTC +00:00], ["description", nil], ["rating", nil], ["release_date", nil], ["title", nil], ["updated_at", Mon, 01 Dec 2014 10:12:17 UTC +00:00]]
+  [1m[36m (15.3ms)[0m  [1mcommit transaction[0m
+WARNING: Can't mass-assign protected attributes: title, rating, release_date
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "movies" ("created_at", "description", "rating", "release_date", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", Mon, 01 Dec 2014 10:12:17 UTC +00:00], ["description", nil], ["rating", nil], ["release_date", nil], ["title", nil], ["updated_at", Mon, 01 Dec 2014 10:12:17 UTC +00:00]]
+  [1m[35m (14.9ms)[0m  commit transaction
+WARNING: Can't mass-assign protected attributes: title, rating, release_date
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "movies" ("created_at", "description", "rating", "release_date", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", Mon, 01 Dec 2014 10:12:17 UTC +00:00], ["description", nil], ["rating", nil], ["release_date", nil], ["title", nil], ["updated_at", Mon, 01 Dec 2014 10:12:17 UTC +00:00]]
+  [1m[36m (13.1ms)[0m  [1mcommit transaction[0m
+WARNING: Can't mass-assign protected attributes: title, rating, release_date
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "movies" ("created_at", "description", "rating", "release_date", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", Mon, 01 Dec 2014 10:12:17 UTC +00:00], ["description", nil], ["rating", nil], ["release_date", nil], ["title", nil], ["updated_at", Mon, 01 Dec 2014 10:12:17 UTC +00:00]]
+  [1m[35m (14.1ms)[0m  commit transaction
+WARNING: Can't mass-assign protected attributes: title, rating, release_date
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "movies" ("created_at", "description", "rating", "release_date", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", Mon, 01 Dec 2014 10:12:17 UTC +00:00], ["description", nil], ["rating", nil], ["release_date", nil], ["title", nil], ["updated_at", Mon, 01 Dec 2014 10:12:17 UTC +00:00]]
+  [1m[36m (13.8ms)[0m  [1mcommit transaction[0m
+WARNING: Can't mass-assign protected attributes: title, rating, release_date
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "movies" ("created_at", "description", "rating", "release_date", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", Mon, 01 Dec 2014 10:12:17 UTC +00:00], ["description", nil], ["rating", nil], ["release_date", nil], ["title", nil], ["updated_at", Mon, 01 Dec 2014 10:12:17 UTC +00:00]]
+  [1m[35m (13.8ms)[0m  commit transaction
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (34.8ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+WARNING: Can't mass-assign protected attributes: title, rating, release_date
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (80.9ms)[0m  [1mINSERT INTO "movies" ("created_at", "description", "rating", "release_date", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", Mon, 01 Dec 2014 10:29:54 UTC +00:00], ["description", nil], ["rating", nil], ["release_date", nil], ["title", nil], ["updated_at", Mon, 01 Dec 2014 10:29:54 UTC +00:00]]
+  [1m[35m (47.4ms)[0m  commit transaction
+WARNING: Can't mass-assign protected attributes: title, rating, release_date
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "movies" ("created_at", "description", "rating", "release_date", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", Mon, 01 Dec 2014 10:29:54 UTC +00:00], ["description", nil], ["rating", nil], ["release_date", nil], ["title", nil], ["updated_at", Mon, 01 Dec 2014 10:29:54 UTC +00:00]]
+  [1m[36m (13.6ms)[0m  [1mcommit transaction[0m
+WARNING: Can't mass-assign protected attributes: title, rating, release_date
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "movies" ("created_at", "description", "rating", "release_date", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", Mon, 01 Dec 2014 10:29:54 UTC +00:00], ["description", nil], ["rating", nil], ["release_date", nil], ["title", nil], ["updated_at", Mon, 01 Dec 2014 10:29:54 UTC +00:00]]
+  [1m[35m (27.6ms)[0m  commit transaction
+WARNING: Can't mass-assign protected attributes: title, rating, release_date
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (2.6ms)[0m  INSERT INTO "movies" ("created_at", "description", "rating", "release_date", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", Mon, 01 Dec 2014 10:29:54 UTC +00:00], ["description", nil], ["rating", nil], ["release_date", nil], ["title", nil], ["updated_at", Mon, 01 Dec 2014 10:29:54 UTC +00:00]]
+  [1m[36m (19.6ms)[0m  [1mcommit transaction[0m
+WARNING: Can't mass-assign protected attributes: title, rating, release_date
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "movies" ("created_at", "description", "rating", "release_date", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", Mon, 01 Dec 2014 10:29:54 UTC +00:00], ["description", nil], ["rating", nil], ["release_date", nil], ["title", nil], ["updated_at", Mon, 01 Dec 2014 10:29:54 UTC +00:00]]
+  [1m[35m (14.3ms)[0m  commit transaction
+WARNING: Can't mass-assign protected attributes: title, rating, release_date
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "movies" ("created_at", "description", "rating", "release_date", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", Mon, 01 Dec 2014 10:29:55 UTC +00:00], ["description", nil], ["rating", nil], ["release_date", nil], ["title", nil], ["updated_at", Mon, 01 Dec 2014 10:29:55 UTC +00:00]]
+  [1m[36m (17.7ms)[0m  [1mcommit transaction[0m
+WARNING: Can't mass-assign protected attributes: title, rating, release_date
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (2.3ms)[0m  [1mINSERT INTO "movies" ("created_at", "description", "rating", "release_date", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", Mon, 01 Dec 2014 10:29:55 UTC +00:00], ["description", nil], ["rating", nil], ["release_date", nil], ["title", nil], ["updated_at", Mon, 01 Dec 2014 10:29:55 UTC +00:00]]
+  [1m[35m (20.1ms)[0m  commit transaction
+WARNING: Can't mass-assign protected attributes: title, rating, release_date
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "movies" ("created_at", "description", "rating", "release_date", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", Mon, 01 Dec 2014 10:29:55 UTC +00:00], ["description", nil], ["rating", nil], ["release_date", nil], ["title", nil], ["updated_at", Mon, 01 Dec 2014 10:29:55 UTC +00:00]]
+  [1m[36m (14.7ms)[0m  [1mcommit transaction[0m
+WARNING: Can't mass-assign protected attributes: title, rating, release_date
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "movies" ("created_at", "description", "rating", "release_date", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", Mon, 01 Dec 2014 10:29:55 UTC +00:00], ["description", nil], ["rating", nil], ["release_date", nil], ["title", nil], ["updated_at", Mon, 01 Dec 2014 10:29:55 UTC +00:00]]
+  [1m[35m (20.0ms)[0m  commit transaction
+WARNING: Can't mass-assign protected attributes: title, rating, release_date
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.4ms)[0m  INSERT INTO "movies" ("created_at", "description", "rating", "release_date", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", Mon, 01 Dec 2014 10:29:55 UTC +00:00], ["description", nil], ["rating", nil], ["release_date", nil], ["title", nil], ["updated_at", Mon, 01 Dec 2014 10:29:55 UTC +00:00]]
+  [1m[36m (15.4ms)[0m  [1mcommit transaction[0m
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (1.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "movies" 
+  [1m[36mSQL (23.5ms)[0m  [1mDELETE FROM "movies"[0m
+WARNING: Can't mass-assign protected attributes: title, rating, release_date
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (24.2ms)[0m  [1mINSERT INTO "movies" ("created_at", "description", "rating", "release_date", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", Mon, 01 Dec 2014 10:32:31 UTC +00:00], ["description", nil], ["rating", nil], ["release_date", nil], ["title", nil], ["updated_at", Mon, 01 Dec 2014 10:32:31 UTC +00:00]]
+  [1m[35m (13.8ms)[0m  commit transaction
+WARNING: Can't mass-assign protected attributes: title, rating, release_date
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "movies" ("created_at", "description", "rating", "release_date", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", Mon, 01 Dec 2014 10:32:31 UTC +00:00], ["description", nil], ["rating", nil], ["release_date", nil], ["title", nil], ["updated_at", Mon, 01 Dec 2014 10:32:31 UTC +00:00]]
+  [1m[36m (14.7ms)[0m  [1mcommit transaction[0m
+WARNING: Can't mass-assign protected attributes: title, rating, release_date
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "movies" ("created_at", "description", "rating", "release_date", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", Mon, 01 Dec 2014 10:32:31 UTC +00:00], ["description", nil], ["rating", nil], ["release_date", nil], ["title", nil], ["updated_at", Mon, 01 Dec 2014 10:32:31 UTC +00:00]]
+  [1m[35m (15.3ms)[0m  commit transaction
+WARNING: Can't mass-assign protected attributes: title, rating, release_date
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "movies" ("created_at", "description", "rating", "release_date", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", Mon, 01 Dec 2014 10:32:31 UTC +00:00], ["description", nil], ["rating", nil], ["release_date", nil], ["title", nil], ["updated_at", Mon, 01 Dec 2014 10:32:31 UTC +00:00]]
+  [1m[36m (18.7ms)[0m  [1mcommit transaction[0m
+WARNING: Can't mass-assign protected attributes: title, rating, release_date
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (1.6ms)[0m  [1mINSERT INTO "movies" ("created_at", "description", "rating", "release_date", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", Mon, 01 Dec 2014 10:32:31 UTC +00:00], ["description", nil], ["rating", nil], ["release_date", nil], ["title", nil], ["updated_at", Mon, 01 Dec 2014 10:32:31 UTC +00:00]]
+  [1m[35m (17.8ms)[0m  commit transaction
+WARNING: Can't mass-assign protected attributes: title, rating, release_date
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "movies" ("created_at", "description", "rating", "release_date", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", Mon, 01 Dec 2014 10:32:31 UTC +00:00], ["description", nil], ["rating", nil], ["release_date", nil], ["title", nil], ["updated_at", Mon, 01 Dec 2014 10:32:31 UTC +00:00]]
+  [1m[36m (17.2ms)[0m  [1mcommit transaction[0m
+WARNING: Can't mass-assign protected attributes: title, rating, release_date
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "movies" ("created_at", "description", "rating", "release_date", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", Mon, 01 Dec 2014 10:32:31 UTC +00:00], ["description", nil], ["rating", nil], ["release_date", nil], ["title", nil], ["updated_at", Mon, 01 Dec 2014 10:32:31 UTC +00:00]]
+  [1m[35m (15.7ms)[0m  commit transaction
+WARNING: Can't mass-assign protected attributes: title, rating, release_date
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "movies" ("created_at", "description", "rating", "release_date", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", Mon, 01 Dec 2014 10:32:31 UTC +00:00], ["description", nil], ["rating", nil], ["release_date", nil], ["title", nil], ["updated_at", Mon, 01 Dec 2014 10:32:31 UTC +00:00]]
+  [1m[36m (14.1ms)[0m  [1mcommit transaction[0m
+WARNING: Can't mass-assign protected attributes: title, rating, release_date
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO "movies" ("created_at", "description", "rating", "release_date", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", Mon, 01 Dec 2014 10:32:31 UTC +00:00], ["description", nil], ["rating", nil], ["release_date", nil], ["title", nil], ["updated_at", Mon, 01 Dec 2014 10:32:31 UTC +00:00]]
+  [1m[35m (14.2ms)[0m  commit transaction
+WARNING: Can't mass-assign protected attributes: title, rating, release_date
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "movies" ("created_at", "description", "rating", "release_date", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", Mon, 01 Dec 2014 10:32:31 UTC +00:00], ["description", nil], ["rating", nil], ["release_date", nil], ["title", nil], ["updated_at", Mon, 01 Dec 2014 10:32:31 UTC +00:00]]
+  [1m[36m (13.4ms)[0m  [1mcommit transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (1.2ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "movies" 
+  [1m[36mSQL (47.0ms)[0m  [1mDELETE FROM "movies"[0m
+WARNING: Can't mass-assign protected attributes: title, rating, release_date
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (5.4ms)[0m  [1mINSERT INTO "movies" ("created_at", "description", "rating", "release_date", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", Mon, 01 Dec 2014 10:45:25 UTC +00:00], ["description", nil], ["rating", nil], ["release_date", nil], ["title", nil], ["updated_at", Mon, 01 Dec 2014 10:45:25 UTC +00:00]]
+  [1m[35m (17.0ms)[0m  commit transaction
+WARNING: Can't mass-assign protected attributes: title, rating, release_date
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "movies" ("created_at", "description", "rating", "release_date", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", Mon, 01 Dec 2014 10:45:25 UTC +00:00], ["description", nil], ["rating", nil], ["release_date", nil], ["title", nil], ["updated_at", Mon, 01 Dec 2014 10:45:25 UTC +00:00]]
+  [1m[36m (37.5ms)[0m  [1mcommit transaction[0m
+WARNING: Can't mass-assign protected attributes: title, rating, release_date
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO "movies" ("created_at", "description", "rating", "release_date", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", Mon, 01 Dec 2014 10:45:25 UTC +00:00], ["description", nil], ["rating", nil], ["release_date", nil], ["title", nil], ["updated_at", Mon, 01 Dec 2014 10:45:25 UTC +00:00]]
+  [1m[35m (12.6ms)[0m  commit transaction
+WARNING: Can't mass-assign protected attributes: title, rating, release_date
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "movies" ("created_at", "description", "rating", "release_date", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", Mon, 01 Dec 2014 10:45:25 UTC +00:00], ["description", nil], ["rating", nil], ["release_date", nil], ["title", nil], ["updated_at", Mon, 01 Dec 2014 10:45:25 UTC +00:00]]
+  [1m[36m (12.3ms)[0m  [1mcommit transaction[0m
+WARNING: Can't mass-assign protected attributes: title, rating, release_date
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "movies" ("created_at", "description", "rating", "release_date", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", Mon, 01 Dec 2014 10:45:25 UTC +00:00], ["description", nil], ["rating", nil], ["release_date", nil], ["title", nil], ["updated_at", Mon, 01 Dec 2014 10:45:25 UTC +00:00]]
+  [1m[35m (13.9ms)[0m  commit transaction
+WARNING: Can't mass-assign protected attributes: title, rating, release_date
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "movies" ("created_at", "description", "rating", "release_date", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", Mon, 01 Dec 2014 10:45:25 UTC +00:00], ["description", nil], ["rating", nil], ["release_date", nil], ["title", nil], ["updated_at", Mon, 01 Dec 2014 10:45:25 UTC +00:00]]
+  [1m[36m (15.7ms)[0m  [1mcommit transaction[0m
+WARNING: Can't mass-assign protected attributes: title, rating, release_date
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "movies" ("created_at", "description", "rating", "release_date", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", Mon, 01 Dec 2014 10:45:25 UTC +00:00], ["description", nil], ["rating", nil], ["release_date", nil], ["title", nil], ["updated_at", Mon, 01 Dec 2014 10:45:25 UTC +00:00]]
+  [1m[35m (13.5ms)[0m  commit transaction
+WARNING: Can't mass-assign protected attributes: title, rating, release_date
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "movies" ("created_at", "description", "rating", "release_date", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", Mon, 01 Dec 2014 10:45:25 UTC +00:00], ["description", nil], ["rating", nil], ["release_date", nil], ["title", nil], ["updated_at", Mon, 01 Dec 2014 10:45:25 UTC +00:00]]
+  [1m[36m (14.8ms)[0m  [1mcommit transaction[0m
+WARNING: Can't mass-assign protected attributes: title, rating, release_date
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "movies" ("created_at", "description", "rating", "release_date", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", Mon, 01 Dec 2014 10:45:25 UTC +00:00], ["description", nil], ["rating", nil], ["release_date", nil], ["title", nil], ["updated_at", Mon, 01 Dec 2014 10:45:25 UTC +00:00]]
+  [1m[35m (16.8ms)[0m  commit transaction
+WARNING: Can't mass-assign protected attributes: title, rating, release_date
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "movies" ("created_at", "description", "rating", "release_date", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", Mon, 01 Dec 2014 10:45:25 UTC +00:00], ["description", nil], ["rating", nil], ["release_date", nil], ["title", nil], ["updated_at", Mon, 01 Dec 2014 10:45:25 UTC +00:00]]
+  [1m[36m (14.2ms)[0m  [1mcommit transaction[0m
+
+
+Started GET "/movies?ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1&ratings%5BR%5D=1&sort=release_date" for 127.0.0.1 at 2014-12-01 16:16:03 +0530
+Connecting to database specified by database.yml
+Processing by MoviesController#index as HTML
+  Parameters: {"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "sort"=>"release_date"}
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'NC-17', 'PG', 'PG-13', 'R') ORDER BY release_date[0m
+  Rendered movies/index.html.haml within layouts/application (42.1ms)
+Completed 200 OK in 383.7ms (Views: 300.9ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-01 16:16:05 +0530
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-01 16:16:05 +0530
+Served asset /jquery.js - 304 Not Modified (32ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-01 16:16:05 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-01 16:16:05 +0530
+Served asset /application.js - 304 Not Modified (14ms)
+Connecting to database specified by database.yml
+  [1m[36m (1.7ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "movies" 
+  [1m[36mSQL (63.6ms)[0m  [1mDELETE FROM "movies"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (9.3ms)[0m  [1mINSERT INTO "movies" ("created_at", "description", "rating", "release_date", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", Mon, 01 Dec 2014 10:47:53 UTC +00:00], ["description", nil], ["rating", "G"], ["release_date", Wed, 25 Nov 1992 00:00:00 UTC +00:00], ["title", "Aladdin"], ["updated_at", Mon, 01 Dec 2014 10:47:53 UTC +00:00]]
+  [1m[35m (32.0ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "movies" ("created_at", "description", "rating", "release_date", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", Mon, 01 Dec 2014 10:47:53 UTC +00:00], ["description", nil], ["rating", "R"], ["release_date", Fri, 26 Oct 1984 00:00:00 UTC +00:00], ["title", "The Terminator"], ["updated_at", Mon, 01 Dec 2014 10:47:53 UTC +00:00]]
+  [1m[36m (14.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (1.4ms)[0m  [1mINSERT INTO "movies" ("created_at", "description", "rating", "release_date", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", Mon, 01 Dec 2014 10:47:53 UTC +00:00], ["description", nil], ["rating", "R"], ["release_date", Fri, 21 Jul 1989 00:00:00 UTC +00:00], ["title", "When Harry Met Sally"], ["updated_at", Mon, 01 Dec 2014 10:47:53 UTC +00:00]]
+  [1m[35m (21.8ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.8ms)[0m  INSERT INTO "movies" ("created_at", "description", "rating", "release_date", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", Mon, 01 Dec 2014 10:47:53 UTC +00:00], ["description", nil], ["rating", "PG-13"], ["release_date", Wed, 10 Aug 2011 00:00:00 UTC +00:00], ["title", "The Help"], ["updated_at", Mon, 01 Dec 2014 10:47:53 UTC +00:00]]
+  [1m[36m (16.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "movies" ("created_at", "description", "rating", "release_date", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", Mon, 01 Dec 2014 10:47:53 UTC +00:00], ["description", nil], ["rating", "PG-13"], ["release_date", Fri, 05 Jan 2001 00:00:00 UTC +00:00], ["title", "Chocolat"], ["updated_at", Mon, 01 Dec 2014 10:47:53 UTC +00:00]]
+  [1m[35m (14.8ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "movies" ("created_at", "description", "rating", "release_date", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", Mon, 01 Dec 2014 10:47:53 UTC +00:00], ["description", nil], ["rating", "R"], ["release_date", Wed, 25 Apr 2001 00:00:00 UTC +00:00], ["title", "Amelie"], ["updated_at", Mon, 01 Dec 2014 10:47:53 UTC +00:00]]
+  [1m[36m (14.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "movies" ("created_at", "description", "rating", "release_date", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", Mon, 01 Dec 2014 10:47:53 UTC +00:00], ["description", nil], ["rating", "G"], ["release_date", Sat, 06 Apr 1968 00:00:00 UTC +00:00], ["title", "2001: A Space Odyssey"], ["updated_at", Mon, 01 Dec 2014 10:47:53 UTC +00:00]]
+  [1m[35m (24.7ms)[0m  commit transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "movies" ("created_at", "description", "rating", "release_date", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", Mon, 01 Dec 2014 10:47:53 UTC +00:00], ["description", nil], ["rating", "PG"], ["release_date", Fri, 05 Nov 2004 00:00:00 UTC +00:00], ["title", "The Incredibles"], ["updated_at", Mon, 01 Dec 2014 10:47:53 UTC +00:00]]
+  [1m[36m (20.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "movies" ("created_at", "description", "rating", "release_date", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", Mon, 01 Dec 2014 10:47:53 UTC +00:00], ["description", nil], ["rating", "PG"], ["release_date", Fri, 12 Jun 1981 00:00:00 UTC +00:00], ["title", "Raiders of the Lost Ark"], ["updated_at", Mon, 01 Dec 2014 10:47:53 UTC +00:00]]
+  [1m[35m (21.6ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "movies" ("created_at", "description", "rating", "release_date", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", Mon, 01 Dec 2014 10:47:53 UTC +00:00], ["description", nil], ["rating", "G"], ["release_date", Wed, 21 Jun 2000 00:00:00 UTC +00:00], ["title", "Chicken Run"], ["updated_at", Mon, 01 Dec 2014 10:47:53 UTC +00:00]]
+  [1m[36m (13.9ms)[0m  [1mcommit transaction[0m
+
+
+Started GET "/movies?ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1&ratings%5BR%5D=1&sort=release_date" for 127.0.0.1 at 2014-12-01 16:18:03 +0530
+Connecting to database specified by database.yml
+Processing by MoviesController#index as HTML
+  Parameters: {"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "sort"=>"release_date"}
+  [1m[36mMovie Load (0.3ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'NC-17', 'PG', 'PG-13', 'R') ORDER BY release_date[0m
+  Rendered movies/index.html.haml within layouts/application (39.7ms)
+Completed 200 OK in 158.5ms (Views: 69.2ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-01 16:18:03 +0530
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-01 16:18:03 +0530
+Served asset /jquery.js - 304 Not Modified (11ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-01 16:18:03 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-01 16:18:03 +0530
+Served asset /application.js - 304 Not Modified (13ms)
+
+
+Started GET "/movies?ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1&ratings%5BR%5D=1&sort=title" for 127.0.0.1 at 2014-12-01 16:18:06 +0530
+Processing by MoviesController#index as HTML
+  Parameters: {"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "sort"=>"title"}
+Redirected to http://0.0.0.0:3000/movies?ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1&ratings%5BR%5D=1&sort=title
+Completed 302 Found in 1.1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies?ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1&ratings%5BR%5D=1&sort=title" for 127.0.0.1 at 2014-12-01 16:18:06 +0530
+Processing by MoviesController#index as HTML
+  Parameters: {"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "sort"=>"title"}
+  [1m[35mMovie Load (0.3ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'NC-17', 'PG', 'PG-13', 'R') ORDER BY title
+  Rendered movies/index.html.haml within layouts/application (12.6ms)
+Completed 200 OK in 23.7ms (Views: 22.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-01 16:18:06 +0530
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-01 16:18:06 +0530
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-01 16:18:06 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-01 16:18:06 +0530
+Served asset /application.js - 304 Not Modified (1ms)
